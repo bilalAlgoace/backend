@@ -73,7 +73,7 @@ app.get('/', (req, res) => {
     res.json({ message: 'Welcome to the Full Stack App API' });
 });
 // Start server
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 10000;
 httpServer.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
